@@ -117,6 +117,9 @@ h2{
     width: 200px;
     padding-left: 80px;
 }
+.ghi .box1 i{
+
+}
 .power h1{
     width: 450px;
     font-size: 3rem;
@@ -164,4 +167,38 @@ h2{
     margin-top: 60px;
     margin-left: 6rem;
     border-radius: 4rem;
+}
+.power h1{
+    width: 450px;
+    font-size: 3rem;
+    padding-left: 752px;
+    margin-top: 10rem;
+}
+.power p{
+    width: 470px;
+    padding-left: 752px;
+    margin-top: 2rem;
+}
+.power h3{
+    padding-left: 780px;
+    margin-top: 1rem;
+}
+.Started{
+    background: transparent;
+    border-color: rgb(255, 240, 255);
+    padding: 18px;
+    width: 140px;
+    margin-top: 60px;
+    margin-left: 750px;
+    border-radius: 4rem;
+}
+.second h1{
+font-size: 3rem;
+padding-left: 18rem;
+margin-top: 6rem;
+}
+.second p{
+    padding-left: 22rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
