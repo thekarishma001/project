@@ -46,13 +46,13 @@ select{
    margin-right: 0.8rem;
 }
 .Signup{
-   background: pink;
-   border-color: rgb(255, 240, 255);
-   padding: 18px;
-   width: 140px;
-   margin-bottom: 0.4rem;
-   margin-left: 30px;
-   border-radius: 4rem;
+    background: transparent;
+    border-color: rgb(255, 240, 255);
+    padding: 18px;
+    width: 140px;
+    margin-bottom: 0.4rem;
+    margin-left: 30px;
+    border-radius: 4rem;
 }
 .text{
   width: 600px; 
@@ -111,4 +111,52 @@ h2{
 .box1 p{
     width: 200px;
     padding-left: 80px;
+}
+.power h1{
+    width: 450px;
+    font-size: 3rem;
+    padding-left: 752px;
+    margin-top: 10rem;
+}
+.power p{
+    width: 470px;
+    padding-left: 752px;
+    margin-top: 2rem;
+}
+.power h3{
+    padding-left: 780px;
+    margin-top: 1rem;
+}
+.Started{
+    background: transparent;
+    border-color: rgb(255, 240, 255);
+    padding: 18px;
+    width: 140px;
+    margin-top: 60px;
+    margin-left: 750px;
+    border-radius: 4rem;
+}
+.books h1{
+    width: 450px;
+    font-size: 3rem;
+    padding-left: 6rem;
+    margin-top: 10rem;
+}
+.books p{
+    width: 470px;
+    padding-left: 6rem;
+    margin-top: 2rem;
+}
+.books h3{
+    padding-left: 8rem;
+    margin-top: 1rem;
+}
+.create{
+    background: transparent;
+    border-color: rgb(255, 240, 255);
+    padding: 18px;
+    width: 140px;
+    margin-top: 60px;
+    margin-left: 6rem;
+    border-radius: 4rem;
 }
