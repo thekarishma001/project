@@ -7,30 +7,18 @@
 body{
     background: rgb(0, 5, 19);
 }
-.header{
-    background: black;
-    display: flex;
-    align-items: center;
-    gap: 69rem;
-}
-.envato{
-    font-size: 1rem;
-    margin-left: 25px;
-}
-.btn{
-    background-color: rgb(112, 207, 34);
-    border-radius: 0.3rem;
-    padding: 0.5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 .navbar{ 
     padding: 2rem;
+    margin-top: -20rem;
     background: rgb(1, 1, 37);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
 }
 select{
     background: transparent;
@@ -54,6 +42,10 @@ select{
     margin-left: 30px;
     border-radius: 4rem;
 }
+img{
+    padding-left: 620px;
+    margin-top: -27rem;
+}
 .text{
   width: 600px; 
   margin: 130px;
@@ -61,6 +53,7 @@ select{
 }
 .text h1{
   font-size: 4.5rem;
+  margin-top: 20rem;
 }
 .abc{
    border-color: rgb(255, 240, 255);
@@ -86,10 +79,10 @@ select{
 }
 .ghi{
     display: flex;
-    background: gray;
+    background: rgb(29, 29, 48);
     border-color: rgb(255, 240, 255);
     margin-left: 6.5rem;
-    height: 40vh;
+    height: 50vh;
     width: 1130px;
     border-radius: 1rem;     
 }
@@ -117,8 +110,9 @@ h2{
     width: 200px;
     padding-left: 80px;
 }
-.ghi .box1 i{
-
+.image{
+    margin-left: -31rem;
+    margin-top: -6rem;
 }
 .power h1{
     width: 450px;
@@ -142,7 +136,10 @@ h2{
     width: 140px;
     margin-top: 60px;
     margin-left: 750px;
-    border-radius: 4rem;
+    border-radius: 2rem;
+}
+.image2{
+    width: 35rem
 }
 .books h1{
     width: 450px;
