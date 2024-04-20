@@ -7,30 +7,18 @@
 body{
     background: rgb(0, 5, 19);
 }
-.header{
-    background: black;
-    display: flex;
-    align-items: center;
-    gap: 69rem;
-}
-.envato{
-    font-size: 1rem;
-    margin-left: 25px;
-}
-.btn{
-    background-color: rgb(112, 207, 34);
-    border-radius: 0.3rem;
-    padding: 0.5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 .navbar{ 
     padding: 2rem;
+    margin-top: -20rem;
     background: rgb(1, 1, 37);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
 }
 select{
     background: transparent;
@@ -54,6 +42,10 @@ select{
     margin-left: 30px;
     border-radius: 4rem;
 }
+img{
+    padding-left: 620px;
+    margin-top: -27rem;
+}
 .text{
   width: 600px; 
   margin: 130px;
@@ -61,6 +53,7 @@ select{
 }
 .text h1{
   font-size: 4.5rem;
+  margin-top: 20rem;
 }
 .abc{
    border-color: rgb(255, 240, 255);
@@ -70,6 +63,7 @@ select{
    border-radius: 4rem;
 }
 .start{
+    font-size: 1.1rem;
     color: black;
 }
 .def{
@@ -86,10 +80,10 @@ select{
 }
 .ghi{
     display: flex;
-    background: gray;
+    background: rgb(29, 29, 48);
     border-color: rgb(255, 240, 255);
     margin-left: 6.5rem;
-    height: 40vh;
+    height: 50vh;
     width: 1130px;
     border-radius: 1rem;     
 }
@@ -109,22 +103,24 @@ h2{
     margin-top: 15px;
     
 }
-.box1 h2{
+.ghi .box1 h2{
    width: 200px; 
    padding-left: 80px;
 }
-.box1 p{
+.ghi .box1 p{
     width: 200px;
     padding-left: 80px;
 }
-.ghi .box1 i{
-
+.power img{
+    margin-left: -31rem;
+    margin-top: -50rem;
+    width: 35rem;
 }
 .power h1{
     width: 450px;
     font-size: 3rem;
     padding-left: 752px;
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 .power p{
     width: 470px;
@@ -142,7 +138,12 @@ h2{
     width: 140px;
     margin-top: 60px;
     margin-left: 750px;
-    border-radius: 4rem;
+    border-radius: 2rem;
+}
+.books img{
+    width: 35rem;
+    padding-left: 28rem;
+    margin-bottom: 2rem;
 }
 .books h1{
     width: 450px;
@@ -168,28 +169,33 @@ h2{
     margin-left: 6rem;
     border-radius: 4rem;
 }
-.power h1{
+.power2 img{
+    margin-left: -30rem;
+    margin-top: -30rem;
+    width: 35rem;
+}
+.power2 h1{
     width: 450px;
     font-size: 3rem;
-    padding-left: 752px;
+    padding-left: 740px;
     margin-top: 10rem;
 }
-.power p{
+.power2 p{
     width: 470px;
-    padding-left: 752px;
+    padding-left: 740px;
     margin-top: 2rem;
 }
-.power h3{
-    padding-left: 780px;
+.power2 h3{
+    padding-left: 770px;
     margin-top: 1rem;
 }
-.Started{
+.Started2{
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18px;
     width: 140px;
     margin-top: 60px;
-    margin-left: 750px;
+    margin-left: 740px;
     border-radius: 4rem;
 }
 .second h1{
@@ -202,3 +208,155 @@ margin-top: 6rem;
     font-size: 1.2rem;
     margin-top: 2rem;
 }
+.main_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.main_box .box1{
+    background: rgb(29, 29, 48);
+    width: 330px;
+    height: 50vh;
+    border-radius: 1rem;
+}
+.main_box .box1 h2{
+    width: 250px;
+    margin-top: 160px;
+    padding-left: 3rem;
+}
+.main_box .box1 img{
+    padding-left: 6rem;
+    margin-bottom: 7rem;
+    width: 8rem;
+}
+.main_box .box1 p{
+    width: 250px;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.main_box .box2{
+    background: rgb(29, 29, 48);
+    width: 330px;
+    height: 55vh;
+    border-radius: 1rem;
+}
+.main_box .box2 h2{
+    width: 250px;
+    margin-top: 175px;
+    padding-left: 5rem;
+}
+.main_box .box2 img{
+    padding-left: 7rem;
+    margin-bottom: 9rem;
+    width: 7rem;
+}
+.main_box .box2 p{
+    width: 250px;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.main_box .box3{
+    background: rgb(29, 29, 48);
+    width: 330px;
+    height: 50vh;
+    border-radius: 1rem;
+}
+.main_box .box3 h2{
+    width: 250px;
+    margin-top: 160px;
+    padding-left: 3rem;
+}
+.main_box .box3 img{
+    padding-left: 7rem;
+    margin-bottom: 6.5rem;
+    width: 7rem;
+}
+.main_box .box3 p{
+    width: 250px;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.main_box .box4{
+    background: rgb(29, 29, 48);
+    width: 330px;
+    height: 50vh;
+    border-radius: 1rem;
+}
+.main_box .box4 h2{
+    width: 300px;
+    margin-top: 160px;
+    padding-left: 2.5rem;
+}
+.main_box .box4 img{
+    padding-left: 7rem;
+    margin-bottom: 8rem;
+    width: 7rem;
+}
+.main_box .box4 p{
+    width: 250px;
+    text-align: center;
+    padding-left: 2.5rem;
+    margin-top: 1rem;
+}
+.main_box .box5{
+    background: rgb(29, 29, 48);
+    width: 330px;
+    height: 55vh;
+    border-radius: 1rem;
+}
+.main_box .box5 h2{
+    width: 250px;
+    margin-top: 190px;
+    padding-left: 4rem;
+}
+.main_box .box5 img{
+    padding-left: 7rem;
+    margin-bottom: 8rem;
+    width: 7rem;
+}
+.main_box .box5 p{
+    width: 250px;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.main_box .box6{
+    background: rgb(29, 29, 48);
+    width: 330px;
+    height: 50vh;
+    border-radius: 1rem;
+}
+.main_box .box6 h2{
+    width: 250px;
+    margin-top: 160px;
+    padding-left: 4rem;
+}
+.main_box .box6 img{
+    padding-left: 7rem;
+    margin-bottom: 8.5rem;
+    width: 7rem;
+}
+.main_box .box6 p{
+    width: 250px;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.def{
+    background: white;
+    border-color: rgb(255, 240, 255);
+    padding: 20px;
+    margin-left: 37rem;
+    width: 140px;
+    margin-top: 60px;
+    border-radius: 4rem;
+ }
+ .see{
+    font-size: 1.1rem;
+     color: black;
+ }
