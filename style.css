@@ -32,12 +32,14 @@ select{
 .btn1{
    margin-left: 6rem;
    margin-right: 0.8rem;
+   font-size: 1.1rem;
 }
 .Signup{
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18px;
     width: 140px;
+    font-size: 1.1rem;
     margin-bottom: 0.4rem;
     margin-left: 30px;
     border-radius: 4rem;
@@ -76,7 +78,7 @@ img{
 }
 .more{
     font-size: 1.1rem;
-    color: black;
+    color: white;
 }
 .ghi{
     display: flex;
@@ -160,7 +162,7 @@ h2{
     padding-left: 8rem;
     margin-top: 1rem;
 }
-.create{
+.books .create{
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18px;
@@ -347,7 +349,7 @@ margin-top: 6rem;
     padding-left: 2rem;
     margin-top: 1rem;
 }
-.def{
+.sea{
     background: white;
     border-color: rgb(255, 240, 255);
     padding: 20px;
@@ -379,16 +381,128 @@ margin-top: 6rem;
     display: flex;
     flex-direction: column;
 }
+.work .create{
+    background: transparent;
+    border-color: rgb(255, 240, 255);
+    padding: 18.5px;
+    width: 140px;
+    font-size: 1.1rem;
+    margin-top: 60px;
+    margin-left: 6rem;
+    border-radius: 4rem;
+}
 .user{
-    width: 450px;
-    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user p{
+    width: 550px;
+    font-size: 1.3rem;
     padding-left: 700px;
     margin-top: -18rem;
+}
+.user .box1{
+    margin-left: 700px;
+    margin-top: -15rem;
+}
+.user .box1 img{
+    margin-top: 1rem;
+    padding-left: 0.1rem;
+}
+.user .icon1 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 0.2rem;
+    margin-top: -1rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon2 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon3 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 2.7rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon4 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 3.9rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon5 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 5.2rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user h3{
+    color: gray;
+    font-size: 1.1rem;
+    margin-top: -1.3rem;
+    padding-left: 6.8rem;
+}
+.user .box2{
+    margin-left: 930px;
+    margin-top: -15rem;
+}
+.user .box2 img{
+    margin-top: 3.3rem;
+    padding-left: 0.1rem;
+}
+.user .icon11 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 0.2rem;
+    margin-top: 1rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon22 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon33 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 2.7rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon44 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 3.9rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user .icon55 i{ 
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 5.2rem;
+    margin-top: -1.5rem;
+    color: rgb(250, 184, 4);
+}
+.user h3{
+    color: gray;
+    font-size: 1.1rem;
+    margin-top: -1.3rem;
+    padding-left: 6.8rem;
 }
 .happy{
     font-size: 2rem; 
     padding-left: 25rem;
-    margin-top: 23rem;
+    margin-top: 12rem;
 }
 .reading{
     display: flex;
