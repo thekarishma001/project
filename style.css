@@ -72,11 +72,11 @@ img{
    padding: 18px;
    width: 140px;
    margin-top: 60px;
-   margin-left: 30px;
    border-radius: 4rem;
 }
 .more{
-    color: white;
+    font-size: 1.1rem;
+    color: black;
 }
 .ghi{
     display: flex;
@@ -360,3 +360,90 @@ margin-top: 6rem;
     font-size: 1.1rem;
      color: black;
  }
+ .work h1{
+    width: 450px;
+    font-size: 3rem;
+    padding-left: 6rem;
+    margin-top: 10rem;
+}
+.work p{
+    width: 470px;
+    padding-left: 6rem;
+    margin-top: 2rem;
+}
+.work h3{
+    padding-left: 8rem;
+    margin-top: 1rem;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    width: 450px;
+    font-size: 1rem;
+    padding-left: 700px;
+    margin-top: -18rem;
+}
+.happy{
+    font-size: 2rem; 
+    padding-left: 25rem;
+    margin-top: 23rem;
+}
+.reading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.reading p{
+   margin-top: 4rem;
+   font-size: 0.9rem;
+   align-items: center;
+   justify-content: center;
+}
+.reading .read1{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+    
+}
+.reading .read2{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}.reading .read3{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}.reading .read4{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}.reading .read5{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}
+.reading .read6{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}.reading .read7{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}.reading .read8{
+    background: rgb(29, 29, 48);
+    width: 400px;
+    height: 40vh;
+    border-radius: 1rem;
+}
