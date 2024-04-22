@@ -654,19 +654,32 @@ margin-top: 6rem;
     width: 140px;
     font-size: 1.1rem;
     margin-bottom: 0.4rem;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 4rem;
 }
 .git{
-    background: white;
-    color: black;
+    border-color: rgb(255, 240, 255);
+        padding: 18px;
+        width: 140px;       
+        border-radius: 4rem;
+        
+}
+.giit{
+    font-size: 1.1rem;
+         color: black;
+}
+.gett{
+    background: transparent;
+    border-color: rgb(255, 240, 255);
     padding: 18px;
     width: 140px;
     font-size: 1.1rem;
     margin-bottom: 0.4rem;
-    margin-left: 30px;
+    margin-left: -1rem;
     border-radius: 4rem;
 }
+
+
     .ques h1{
         font-size: 2rem;
          margin-top: 12rem;
