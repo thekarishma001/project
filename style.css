@@ -700,13 +700,13 @@ margin-top: 6rem;
     margin-left: 10rem;
     border-radius: 4rem
      }
-     .futur h1{
+     .future h1{
         font-size: 2rem;
          margin-top: 12rem;
          padding-left: 10rem;
      
      }
-     .futur h4{
+     .future h4{
         padding-left: 10rem;
         padding-top: 2rem;          
      
@@ -735,5 +735,10 @@ margin-top: 6rem;
          font-size: 1.1rem;
          color: white;
      }
-
+    .future img{
+        height: 60vh;
+        width: 600px;
+    }
+    .sub .box1{
+    }
  
