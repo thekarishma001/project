@@ -27,7 +27,8 @@ select{
     width: 70px;
 }
 .aai{
-    margin-right: 9rem;
+    margin-left: -40rem;
+    margin-right: 3rem;
 }
 .btn1{
    margin-left: 6rem;
@@ -105,6 +106,9 @@ h2{
     padding-left: 130px;
     margin-top: 15px;
     
+}
+.ghi .box1{
+    border-right-color: rgb(255, 240, 255);
 }
 .ghi .box1 h2{
    width: 200px; 
@@ -815,6 +819,7 @@ margin-top: 6rem;
     background: transparent;
     border-color: rgb(255, 240, 255);
     width: 140px;
+    padding: 18px;
     margin-top: 60px;
     border-radius: 4rem;
 }
@@ -826,4 +831,45 @@ margin-top: 6rem;
     height: 60vh;
     width: 600px;
     margin-top: -20rem;
+}
+.sub{
+    height: 100vh;
+    width: auto;
+    background: rebeccapurple;
+}
+.sub .box1{
+    margin-top: 4rem;
+    display: flex;
+    gap: 4rem;
+    padding-left: 5rem;
+    background: rgb(62, 62, 90);
+    width: 900px;
+    height: 25vh;
+    border-radius: 1rem;
+    margin: 7rem;
+    margin-left: 9rem;
+   align-items: center; 
+}
+.sub input{
+    padding-right: 20rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    border-radius: 4rem;
+    background: rgb(29, 29, 48);
+}
+.sub button{
+    background: white;
+    color: black;
+    border-color: rgb(255, 240, 255);
+    padding: 17px;
+    width: 140px;
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    margin-left: -10rem;
+    border-radius: 4rem;
+}  
+.sub a{
+    font-size: 1.5rem;
 }
