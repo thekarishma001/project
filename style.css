@@ -591,18 +591,15 @@ margin-top: 6rem;
     display: flex;
 }
 .Pricing h1{
-   font-size: 2rem;
+    font-size: 3rem;
     margin-top: 12rem;
     padding-left: 10rem;
+    width: 900px;
 
 }
-.Pricing h3{
-    font-size: 1rem;
+.Pricing p{
     margin-top: 13rem;
-    display: flex;
-    margin-right: 8rem;
-
-
+    padding-right: 7rem;
 }
 .starter{
     margin-top: 4rem;
@@ -704,93 +701,129 @@ margin-top: 6rem;
     margin-left: -1rem;
     border-radius: 4rem;
 }
-
-
-    .ques h1{
-        font-size: 2rem;
-         margin-top: 12rem;
-         padding-left: 10rem;
-     
-     }
-     .ques h4{
-        padding-left: 10rem;
-        padding-top: 2rem;          
-     
-     }
-     .contact{
-     background: transparent;
+.ques h1{
+    font-size: 3rem;
+    margin-top: 12rem;
+    padding-left: 7rem;
+}
+.ques p{
+    padding-left: 7rem;
+    padding-top: 2rem;  
+}
+.contact{
+    background: transparent;
     padding: 18px;
     width: 140px;
     font-size: 1.1rem;
-   margin: 2rem;
-    margin-left: 10rem;
+    margin: 2rem;
+    margin-left: 7rem;
     border-radius: 4rem
-     }
-     .future h1{
-        font-size: 2rem;
-         margin-top: 12rem;
-         padding-left: 10rem;
+}
+.ques .writing{
+    width: 700px;
+    height: 12vh;
+    margin-left: 38rem;
+    margin-top: -27rem;
+}
+.writing button{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.4rem;
+    padding-right: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.ques .process{
+    width: 700px;
+    height: 12vh;
+    margin-top: 2rem;
+    margin-left: 38rem;
+}
+.process button{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.4rem;
+    padding-right: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.ques .money{
+    width: 700px;
+    height: 12vh;
+    margin-top: 2rem;
+    margin-left: 38rem;
+}
+.money button{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.4rem;
+    padding-right: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.ques .currency{
+    width: 700px;
+    height: 12vh;
+    margin-top: 2rem;
+    margin-left: 38rem;
+}
+.currency button{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.4rem;
+    padding-right: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.ques .cards{
+    width: 700px;
+    height: 12vh;
+    margin-top: 2rem;
+    margin-left: 38rem;
+}
+.cards button{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.4rem;
+    padding-right: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.future h1{
+    font-size: 2rem;
+    margin-top: 20rem;
+    padding-left: 10rem;
+}
+.future h4{
+    padding-left: 10rem;
+    padding-top: 2rem;          
      
-     }
-     .future h4{
-        padding-left: 10rem;
-        padding-top: 2rem;          
-     
-     }
-     .srt{
-        border-color: rgb(255, 240, 255);
-        padding: 18px;
-        width: 140px;
-        margin-top: 60px;
-        border-radius: 4rem;
-        margin-left: 9rem;
-     }
-     .srtt{
-         font-size: 1.1rem;
-         color: black;
-     }
-     .mor{
-        background: transparent;
-        border-color: rgb(255, 240, 255);
-        padding: 18px;
-        width: 140px;
-        margin-top: 60px;
-        border-radius: 4rem;
-     }
-     .morr{
-         font-size: 1.1rem;
-         color: white;
-     }
-    .future img{
-        height: 60vh;
-        width: 600px;
-    }
-    .sub{
-        width: 100%;
-        height: 100vh;
-        margin-top: 8rem;
-    }
-    .sub .box1{
-        background: rgb(22, 22, 48);
-        width: 170vh;
-        height: 22vh;
-        border-radius: 1rem;
-        margin-left: 7rem;
-    }
-    .sub p{
-        margin-top: 2rem;
-        padding-left: 6rem;
-    }
-    .sub h2{
-        padding-left: 6rem;
-        margin-bottom: 10px;
-    }
-    .sub input{
-        width: 30rem;
-        height: 4rem;
-        border-radius: 5rem;
-        background: rgb(22, 22, 48);
-        color: gray;
-        margin-left: 520px;
-        margin-top: -2.5rem;
-    }
+}
+.srt{
+    border-color: rgb(255, 240, 255);
+    padding: 18px;
+    width: 140px;
+    margin-top: 60px;
+    border-radius: 4rem;
+    margin-left: 9rem;
+}
+.srtt{
+    font-size: 1.1rem;
+    color: black;
+}
+.mor{
+    background: transparent;
+    border-color: rgb(255, 240, 255);
+    width: 140px;
+    margin-top: 60px;
+    border-radius: 4rem;
+}
+.morr{
+    font-size: 1.1rem;
+    color: white;
+}
+.future img{
+    height: 60vh;
+    width: 600px;
+    margin-top: -20rem;
+}
