@@ -116,7 +116,6 @@ select{
     padding: 4rem 3rem;
     position: relative;  
 }
-
 .ghi .box i{
     font-size: 3rem;
     background: #000;
@@ -124,87 +123,78 @@ select{
     right: -7%;
     border-radius: 50%;
 }
-
 .ghi .box:nth-child(3){
     border-right: none;
 }
-
-.power img{
-    margin-left: -35rem;
+.power img{    
     margin-top: -50rem;
-    width: 35rem;
 }
 .power h1{
-    width: 450px;
+    width: 50%;
     font-size: 3rem;
-    padding-left: 730px;
-    margin-top: 12rem;
+    padding-left: 600px;
 }
 .power p{
-    width: 470px;
-    padding-left: 730px;
+    width: 90%;
+    padding-left: 600px;
     margin-top: 2rem;
 }
-.power h3{
-    padding-left: 750px;
+.power h4{
+    width: 100%;
+    padding-left: 630px;
     margin-top: 1rem;
 }
 .Started{
     background: transparent;
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;
+    padding: 18px 36px;
     margin-top: 60px;
-    margin-left: 750px;
+    margin-left: 600px;
     border-radius: 2rem;
 }
 .books img{
+    display: flex;
     width: 34rem;
-    padding-left: 25rem;
-    margin-bottom: 2rem;
+    padding-left: 32rem;
+    margin-top: -28rem;
+
 }
 .books h1{
-    width: 450px;
+    width: 60%;
     font-size: 3rem;
-    padding-left: 6rem;
     margin-top: 10rem;
 }
 .books p{
     width: 470px;
-    padding-left: 6rem;
     margin-top: 2rem;
 }
 .books h3{
-    padding-left: 8rem;
+    padding-left: 2rem;
     margin-top: 1rem;
 }
 .books .create{
     background: transparent;
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;
+    padding: 18px 36px;
     margin-top: 60px;
-    margin-left: 6rem;
     border-radius: 4rem;
 }
 .power2 img{
-    margin-left: -30rem;
-    margin-top: -30rem;
-    width: 35rem;
+    margin-top: -50%;
 }
 .power2 h1{
-    width: 450px;
+    margin-top: 20rem;
+    width: 50%;
     font-size: 3rem;
-    padding-left: 740px;
-    margin-top: 10rem;
+    padding-left: 600px;
 }
 .power2 p{
-    width: 470px;
-    padding-left: 740px;
     margin-top: 2rem;
+    width: 470px;
+    padding-left: 600px;   
 }
 .power2 h3{
-    padding-left: 770px;
+    padding-left: 650px;
     margin-top: 1rem;
 }
 .Started2{
@@ -213,7 +203,7 @@ select{
     padding: 18px;
     width: 140px;
     margin-top: 60px;
-    margin-left: 740px;
+    margin-left: 600px;
     border-radius: 4rem;
 }
 .second h1{
