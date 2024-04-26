@@ -144,11 +144,15 @@ section{
     padding: 18px 36px;
     border-radius: 2rem;
 }
-.books{    
+.books{ 
+    margin-top: 10rem;   
     display: flex;
 }
 .books img{
+    margin-top: -60%;
+    margin-left: 70%;
     width: 75%;
+    right: 0;
 }
 .book{
     display: flex;
@@ -166,12 +170,14 @@ section{
     padding: 18px 36px;
     border-radius: 2rem;
 }
-.power2{    
+.power2{   
+    margin-top: 10rem; 
     display: flex;
 }
 .power2 img{
-    width: 45%;
+    width: 50%;
     left: 2rem;
+    margin-top: -5rem;
 }
 .pwr2{
     display: flex;
@@ -183,6 +189,9 @@ section{
 .pwr2 h1{
     font-size: 3rem;
 }
+.pwr2 h4{
+    margin-top: 1rem;
+}
 .Started2{
     background: transparent;
     border-color: rgb(255, 240, 255);
@@ -191,11 +200,10 @@ section{
 }
 .second h1{
 font-size: 3rem;
-padding-left: 18rem;
-margin-top: 6rem;
+padding-left: 10rem;
 }
 .second p{
-    padding-left: 22rem;
+    padding-left: 13rem;
     font-size: 1.2rem;
     margin-top: 2rem;
 }
@@ -214,12 +222,11 @@ margin-top: 6rem;
 }
 .main_box .box1 h2{
     width: 250px;
-    margin-top: 160px;
     padding-left: 3rem;
 }
 .main_box .box1 img{
     padding-left: 6rem;
-    margin-bottom: 7rem;
+    margin-top: 2rem;
     width: 8rem;
 }
 .main_box .box1 p{
@@ -236,12 +243,11 @@ margin-top: 6rem;
 }
 .main_box .box2 h2{
     width: 250px;
-    margin-top: 175px;
     padding-left: 5rem;
 }
 .main_box .box2 img{
     padding-left: 7rem;
-    margin-bottom: 9rem;
+    margin-top: 2rem;
     width: 7rem;
 }
 .main_box .box2 p{
@@ -258,12 +264,11 @@ margin-top: 6rem;
 }
 .main_box .box3 h2{
     width: 250px;
-    margin-top: 160px;
     padding-left: 3rem;
 }
 .main_box .box3 img{
+    margin-top: 2rem;
     padding-left: 7rem;
-    margin-bottom: 6.5rem;
     width: 7rem;
 }
 .main_box .box3 p{
@@ -280,12 +285,11 @@ margin-top: 6rem;
 }
 .main_box .box4 h2{
     width: 300px;
-    margin-top: 160px;
     padding-left: 2.5rem;
 }
 .main_box .box4 img{
+    margin-top: 2rem;
     padding-left: 7rem;
-    margin-bottom: 8rem;
     width: 7rem;
 }
 .main_box .box4 p{
@@ -302,12 +306,11 @@ margin-top: 6rem;
 }
 .main_box .box5 h2{
     width: 250px;
-    margin-top: 190px;
     padding-left: 4rem;
 }
 .main_box .box5 img{
     padding-left: 7rem;
-    margin-bottom: 8rem;
+    margin-top: 2rem;
     width: 7rem;
 }
 .main_box .box5 p{
@@ -324,12 +327,11 @@ margin-top: 6rem;
 }
 .main_box .box6 h2{
     width: 250px;
-    margin-top: 160px;
     padding-left: 4rem;
 }
 .main_box .box6 img{
+     margin-top: 2rem;
     padding-left: 7rem;
-    margin-bottom: 8.5rem;
     width: 7rem;
 }
 .main_box .box6 p{
@@ -342,7 +344,7 @@ margin-top: 6rem;
     background: white;
     border-color: rgb(255, 240, 255);
     padding: 20px;
-    margin-left: 37rem;
+    margin-left: 35rem;
     width: 140px;
     margin-top: 60px;
     border-radius: 4rem;
@@ -354,16 +356,11 @@ margin-top: 6rem;
  .work h1{
     width: 450px;
     font-size: 3rem;
-    padding-left: 6rem;
-    margin-top: 10rem;
-}
+ }
 .work p{
     width: 470px;
-    padding-left: 6rem;
-    margin-top: 2rem;
 }
 .work h3{
-    padding-left: 8rem;
     margin-top: 1rem;
 }
 .work{
@@ -377,7 +374,6 @@ margin-top: 6rem;
     width: 140px;
     font-size: 1.1rem;
     margin-top: 60px;
-    margin-left: 6rem;
     border-radius: 4rem;
 }
 .user{
@@ -489,15 +485,14 @@ margin-top: 6rem;
     padding-left: 6.8rem;
 }
 .user .img1{
-    padding-left: 5rem;
-    margin-top: -3.3rem;
+    padding-left: 60%;
+    
 }
 .user .img2{
-    padding-left: 17rem;
+    padding-left: 70%;
 }
 .user .img3{
-    padding-left: 33rem;
-    margin-top: -4rem;
+    padding-left: 70%;
 }
 .happy{
     font-size: 2rem; 
