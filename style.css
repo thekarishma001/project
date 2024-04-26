@@ -98,7 +98,7 @@ section{
 .main_boxes{
     display: flex;
     background: rgb(29, 29, 48);
-    border: 1px solid #fff;
+    border: 1px solid gray;
     border-radius: 1rem;
 }
 .ghi .box{
@@ -126,14 +126,17 @@ section{
 }
 .power img{
     width: 45%;
-    height: auto;
     left: 2rem;
 }
 .pwr{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    padding-left: 3rem;
     align-items: start;
     gap: 2rem;
+}
+.pwr h1{
+    font-size: 3rem;  
 }
 .Started{
     background: transparent;
@@ -141,54 +144,50 @@ section{
     padding: 18px 36px;
     border-radius: 2rem;
 }
-.books{
+.books{    
     display: flex;
 }
 .books img{
-    margin-top: -5rem;
-    width: 40%;
-    left: 2rem;
+    width: 75%;
 }
 .book{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    padding-left: 3rem;  
     align-items: start;
     gap: 2rem;
 }
-
-.books .create{
+.book h1{
+    font-size: 3rem;
+}
+.create{
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18px 36px;
-    margin-top: 60px;
-    border-radius: 4rem;
+    border-radius: 2rem;
+}
+.power2{    
+    display: flex;
 }
 .power2 img{
-    margin-top: -50%;
+    width: 45%;
+    left: 2rem;
 }
-.power2 h1{
-    margin-top: 20rem;
-    width: 50%;
+.pwr2{
+    display: flex;
+    flex-direction: column;  
+    padding-left: 3rem; 
+    align-items: start;
+    gap: 2rem;
+}
+.pwr2 h1{
     font-size: 3rem;
-    padding-left: 600px;
-}
-.power2 p{
-    margin-top: 2rem;
-    width: 470px;
-    padding-left: 600px;   
-}
-.power2 h3{
-    padding-left: 650px;
-    margin-top: 1rem;
 }
 .Started2{
     background: transparent;
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;
-    margin-top: 60px;
-    margin-left: 600px;
-    border-radius: 4rem;
+    padding: 18px 36px;
+    border-radius: 2rem;
 }
 .second h1{
 font-size: 3rem;
