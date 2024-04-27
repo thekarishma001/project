@@ -26,7 +26,7 @@ body{
    padding-left: 2rem;
 }
 section{
-    min-height: 100vh;
+   
     padding: 12rem 8% 2rem;
 }
 
@@ -123,7 +123,6 @@ section{
 }
 .power{    
     display: flex;
-    margin-top: -20rem;
 }
 .power img{
     width: 45%;
@@ -211,120 +210,38 @@ padding-left: 10rem;
     justify-content: center;
     gap: 2rem;
 }
-.main_box .box1{
+.main_box .box{
+    display: flex;
+    flex-direction: column;
     background: rgb(29, 29, 48);
+    justify-content: center;
     width: 330px;
-    height: 50vh;
+    height: 60vh;
+    gap: 1rem;
+    align-items: center;
     border-radius: 1rem;
 }
-.main_box .box1 h2{
-    width: 250px;
-    padding-left: 3rem;
+.main_box .box h2{
+    width: 300px;
+    text-align: center;
 }
-.main_box .box1 img{
-    padding-left: 6rem;
+.main_box .box img{
     width: 8rem;
 }
-.main_box .box1 p{
+.main_box .box p{
     width: 250px;
-    text-align: center;
-    padding-left: 2rem;
+    text-align: center; 
 }   
 .main_box .box2{
+    display: flex;
+    flex-direction: column;
     background: rgb(29, 29, 48);
+    justify-content: center;
     width: 330px;
-    height: 55vh;
+    height: 65vh;
+    gap: 1rem;
+    align-items: center;
     border-radius: 1rem;
-}
-.main_box .box2 h2{
-    width: 250px;
-    padding-left: 5rem;
-}
-.main_box .box2 img{
-    padding-left: 7rem;
-    width: 7rem;
-}
-.main_box .box2 p{
-    width: 250px;
-    text-align: center;
-    padding-left: 2rem;
-}
-.main_box .box3{
-    background: rgb(29, 29, 48);
-    width: 330px;
-    height: 50vh;
-    border-radius: 1rem;
-}
-.main_box .box3 h2{
-    width: 250px;
-    padding-left: 3rem;
-}
-.main_box .box3 img{
-    margin-top: 2rem;
-    padding-left: 7rem;
-    width: 7rem;
-}
-.main_box .box3 p{
-    width: 250px;
-    text-align: center;
-    padding-left: 2rem;
-}
-.main_box .box4{
-    background: rgb(29, 29, 48);
-    width: 330px;
-    height: 50vh;
-    border-radius: 1rem;
-}
-.main_box .box4 h2{
-    width: 300px;
-    padding-left: 2.5rem;
-}
-.main_box .box4 img{
-    padding-left: 7rem;
-    width: 7rem;
-}
-.main_box .box4 p{
-    width: 250px;
-    text-align: center;
-    padding-left: 2.5rem;
-}
-.main_box .box5{
-    background: rgb(29, 29, 48);
-    width: 330px;
-    height: 55vh;
-    border-radius: 1rem;
-}
-.main_box .box5 h2{
-    width: 250px;
-    padding-left: 4rem;
-}
-.main_box .box5 img{
-    padding-left: 7rem;
-    width: 7rem;
-}
-.main_box .box5 p{
-    width: 250px;
-    text-align: center;
-    padding-left: 2rem;
-}
-.main_box .box6{
-    background: rgb(29, 29, 48);
-    width: 330px;
-    height: 50vh;
-    border-radius: 1rem;
-}
-.main_box .box6 h2{
-    width: 250px;
-    padding-left: 4rem;
-}
-.main_box .box6 img{
-    padding-left: 7rem;
-    width: 7rem;
-}
-.main_box .box6 p{
-    width: 250px;
-    text-align: center;
-    padding-left: 2rem;
 }
 .sea{
     background: white;
@@ -480,9 +397,7 @@ padding-left: 10rem;
 .starter h1{
     font-size: 2rem;
 }
-.starter h2{
-    padding-left: 0rem;
-}
+
 .popular{
     display: flex;
     gap: 4rem;
@@ -513,10 +428,6 @@ padding-left: 10rem;
 .enter h1{
     font-size: 2rem;
 }
-.enter h2{
-    padding-left: 0rem;
-
-}
  .get{
     background: transparent;
     border-color: rgb(255, 240, 255);
@@ -546,17 +457,15 @@ padding-left: 10rem;
 }
 .ques h1{
     font-size: 3rem;
-    padding-left: 7rem;
 }
 .ques p{
-    padding-left: 7rem;
     padding-top: 2rem;  
 }
 .contact{
     background: transparent;
-    padding: 18px;
-    width: 140px;
+    padding: 18px 36px;
     font-size: 1.1rem;
+    margin-top: 2rem;
     border-radius: 4rem
 }
 .future h1{
