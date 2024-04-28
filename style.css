@@ -292,7 +292,7 @@ padding-left: 10rem;
      color: black;
  }
  .work h1{
-    width: 450px;
+    width: 400px;
     font-size: 3rem;
  }
 .work p{
@@ -309,6 +309,7 @@ padding-left: 10rem;
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18.5px;
+    margin-top: 2rem;
     width: 140px;
     font-size: 1.1rem;
     border-radius: 4rem;
@@ -318,98 +319,49 @@ padding-left: 10rem;
     flex-wrap: wrap;
 }
 .user p{
-    width: 550px;
+    width: 55%;
     font-size: 1.3rem;
-    padding-left: 700px;
+    padding-left: 520px;
+    margin-top: -14rem;
 }
+
 .user .box1 img{
-    padding-left: 0.1rem;
+    padding-left: 35rem;
+    margin-top: -60rem;
 }
-.user .icon1 i{ 
+.user .ico {
     display: flex;
-    font-size: 1.5rem;
-    padding-left: 0.2rem;
-    color: rgb(250, 184, 4);
+    font-size: 1.3rem;
+    padding-left: 35rem;
 }
-.user .icon2 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 1.5rem;
-    color: rgb(250, 184, 4);
+.user .ico i{
+    color: yellow;
 }
-.user .icon3 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 2.7rem;
-    color: rgb(250, 184, 4);
-}
-.user .icon4 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 3.9rem;
-    color: rgb(250, 184, 4);
-}
-.user .icon5 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 5.2rem;
-    color: rgb(250, 184, 4);
-}
-.user h3{
-    color: gray;
-    font-size: 1.1rem;
-    padding-left: 6.8rem;
-}
+   
 .user .box2 img{
-    padding-left: 0.1rem;
+    padding-left: 60rem;
+    margin-top: -100%;
 }
-.user .icon11 i{ 
+.user .ioc {
     display: flex;
-    font-size: 1.5rem;
-    padding-left: 0.2rem;
-    color: rgb(250, 184, 4);
+    font-size: 1.3rem;
+    padding-left: 60rem;
 }
-.user .icon22 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 1.5rem;
-    color: rgb(250, 184, 4);
-}
-.user .icon33 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 2.7rem;
-    color: rgb(250, 184, 4);
-}
-.user .icon44 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 3.9rem;
-    color: rgb(250, 184, 4);
-}
-.user .icon55 i{ 
-    display: flex;
-    font-size: 1.5rem;
-    padding-left: 5.2rem;
-    color: rgb(250, 184, 4);
+.user .ioc i{
+    color: yellow;
 }
 .user h3{
     color: gray;
     font-size: 1.1rem;
-    padding-left: 6.8rem;
 }
-.user .img1{
-    padding-left: 60%;
-    
-}
-.user .img2{
-    padding-left: 70%;
-}
-.user .img3{
-    padding-left: 70%;
+.user .img{
+    display: flex;
+    gap: 2rem;
+ padding-left: 35rem;
+
 }
 .main_pricing{
-    display: flex;
+   display: flex;
 }
 [data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
@@ -434,24 +386,21 @@ padding-left: 10rem;
 [data-aos=fade-up] {
     transform: translate3d(0,100px,0);
 }
-.Pricing h1{
-    font-size: 3rem;
-    padding-left: 10rem;
-    width: 900px;
-
+.Pricing{
+    display: flex;
 }
-.Pricing p{
-    padding-right: 7rem;
+.Pricing .plan h1{
+    font-size: 3rem;
 }
 .starter{
     display: flex;
-    gap: 4rem;
+    gap: 4rem; 
     padding-left: 5rem;
     background: rgb(29, 29, 48);
     width: 900px;
     height: 30vh;
     border-radius: 1rem;
-   align-items: center;
+    align-items: center;
 }
 .starter h1{
     font-size: 2rem;
@@ -528,11 +477,9 @@ padding-left: 10rem;
     border-radius: 4rem
 }
 .future h1{
-    font-size: 2rem;
-    padding-left: 10rem;
+    font-size: 3rem;
 }
 .future h4{
-    padding-left: 10rem;
     padding-top: 2rem;          
      
 }
@@ -554,8 +501,8 @@ padding-left: 10rem;
 }
 .srt{
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;
+    padding: 18px 36px;
+    margin-top: 2rem;
     border-radius: 4rem;
 }
 .srtt{
@@ -565,8 +512,7 @@ padding-left: 10rem;
 .mor{
     background: transparent;
     border-color: rgb(255, 240, 255);
-    width: 140px;
-    padding: 18px;
+    padding: 18px 36px;
     border-radius: 4rem;
 }
 .morr{
@@ -574,10 +520,14 @@ padding-left: 10rem;
     color: white;
 }
 .future img{
-    height: 60vh;
-    width: 600px;
+    margin-top: -40%;
+    margin-left: 45%;
+    width: 60%;
+    right: 0;
 }
 .sub{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: auto;
     background: rgb(12, 12, 30);
@@ -597,35 +547,44 @@ padding-left: 10rem;
     padding-left: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    gap: 10rem;
     font-size: 1rem;
     border-radius: 4rem;
     background: rgb(29, 29, 48);
+}
+.inp{
+    display: flex;
 }
 .sub button{
     background: white;
     color: black;
     border-color: rgb(255, 240, 255);
-    padding: 17px;
-    width: 140px;
+    padding: 10px 30px;
+    margin-left: -10rem;
     font-size: 1.1rem;
     border-radius: 4rem;
 }  
 .sub a{
     font-size: 1.5rem;
 }
+.links{
+    width: 100%;
+}
 .logo img{
+    margin-top: 4rem;
     padding-left: 1rem;
 }
 .logo p{
     font-size: 1.3rem;
     padding-left: 1rem;
+    margin-top: 1rem;
 }
-.links{
-    gap: 5rem;
+.logo i{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
 }
-.xyz{
-    padding-left: 30rem;
+.aabb{
+    display: flex;
+    gap: 6rem;
 }
 .xyz h1{
     font-size: 1.5rem;    
@@ -634,16 +593,11 @@ padding-left: 10rem;
     font-size: 1rem;
     padding-left: 1rem;
 }
-.aaa{
-    padding-left: 45rem;
-}
+
 .aaa ul li a{
     font-size: 1rem;
     padding-top: 2rem;
     padding-left: 1rem;
-}
-.bbb{
-    padding-left: 65rem;
 }
 .bbb ul li a{
     font-size: 1rem;
