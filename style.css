@@ -98,6 +98,9 @@ section{
     border: 1px solid gray;
     border-radius: 1rem;
 }
+.second{
+    margin-bottom: 4rem;
+}
 [data-aos^=zoom][data-aos^=zoom].aos-animate{
     opacity: 1;
     transform: translateZ(0) scale(1);
@@ -155,6 +158,13 @@ section{
     padding: 18px 36px;
     border-radius: 2rem;
 }
+
+ .planns{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .books{ 
     margin-top: 10rem;   
     display: flex;
@@ -324,8 +334,17 @@ padding-left: 10rem;
     padding-left: 520px;
     margin-top: -14rem;
 }
+.shweta{
+    display: flex;
+}
+.shweta .box1{
+    display: flex;
+    flex-direction: column;
+}
 
-.user .box1 img{
+
+.shweta .image{
+    display: flex;
     padding-left: 35rem;
     margin-top: -60rem;
 }
@@ -338,16 +357,16 @@ padding-left: 10rem;
     color: yellow;
 }
    
-.user .box2 img{
+.user .box1 img{
     padding-left: 60rem;
     margin-top: -100%;
 }
-.user .ioc {
+.user .ico {
     display: flex;
     font-size: 1.3rem;
     padding-left: 60rem;
 }
-.user .ioc i{
+.user .ico i{
     color: yellow;
 }
 .user h3{
@@ -483,6 +502,10 @@ padding-left: 10rem;
     padding-top: 2rem;          
      
 }
+
+
+
+
 [data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
     transform: translateZ(0);
@@ -529,8 +552,7 @@ padding-left: 10rem;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: auto;
-    background: rgb(12, 12, 30);
+    width: 100%;
 }
 .sub .box1{
     display: flex;
@@ -540,7 +562,7 @@ padding-left: 10rem;
     width: 1000px;
     height: 25vh;
     border-radius: 1rem;
-   align-items: center; 
+    align-items: center; 
 }
 .sub input{
     padding-right: 20rem;
@@ -569,40 +591,36 @@ padding-left: 10rem;
 .links{
     width: 100%;
 }
-.logo img{
-    margin-top: 4rem;
-    padding-left: 1rem;
-}
 .logo p{
     font-size: 1.3rem;
-    padding-left: 1rem;
-    margin-top: 1rem;
-}
-.logo i{
-    margin-top: 1rem;
-    margin-left: 0.5rem;
 }
 .aabb{
     display: flex;
     gap: 6rem;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 4rem;
+}
+.aaa ul, .bbb ul, .xyz ul{
+    list-style: none;
+}
+
 .xyz h1{
     font-size: 1.5rem;    
 }
 .xyz ul li a{
     font-size: 1rem;
-    padding-left: 1rem;
 }
 
 .aaa ul li a{
     font-size: 1rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
 }
 .bbb ul li a{
     font-size: 1rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
 }
 .links i{
     color: white;
@@ -611,11 +629,11 @@ padding-left: 10rem;
     width: 2rem;
     border-radius: 4rem;
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
 }
-.copywright h3{
-    padding-left: 35rem;
+
+.Copyright{
+    display: flex;
+    justify-content: center;
 }
 [data-aos][data-aos][data-aos-delay="50"].aos-animate, body[data-aos-delay="50"] [data-aos].aos-animate {
     transition-delay: 50ms;
