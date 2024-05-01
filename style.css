@@ -1,10 +1,11 @@
-*{
+*,:after,:before{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     color: white;
     outline: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body{
     background: rgb(0, 5, 19);
@@ -82,16 +83,36 @@ section{
     font-size: 1.1rem;
     color: black;
 }
-.def{
-   background: transparent;
-   border-color: rgb(255, 240, 255);
-   padding: 18px 36px;
-   border-radius: 4rem;
-}
 .more{
+    /* background: rgb(1, 1, 37); */
+    border: 2px solid rgb(255, 240, 255);
+    padding: 18px 36px;
+    border-radius: 4rem;
     font-size: 1.1rem;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
+
+.more::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue);
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.more:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+
 .main_boxes{
     display: flex;
     background: rgb(29, 29, 48);
@@ -301,49 +322,51 @@ padding-left: 10rem;
     font-size: 1.1rem;
      color: black;
  }
+
+ .work_container{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+ }
+
  .work h1{
-    width: 400px;
     font-size: 3rem;
  }
-.work p{
-    width: 470px;
-}
 .work h3{
     margin-top: 1rem;
 }
 .work{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .work .create{
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18.5px;
     margin-top: 2rem;
-    width: 140px;
     font-size: 1.1rem;
     border-radius: 4rem;
 }
-.user{
-    display: flex;
-}
 .user p{
-    width: 100%;
     font-size: 1.3rem;
-    padding-left: 520px;
-    margin-top: -14rem;
-}
-.shweta{
-  display: flex;  
-  justify-content: center; 
-  align-items: center;
 }
 
-.box1 .image{
+.rating{
     display: flex;
-    flex-direction: column;  
-    margin-top: -10rem;
-   align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.rating_box{
+    display: flex;
+    gap: 2rem;
+}
+
+.img_box{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .iconn{
@@ -351,11 +374,6 @@ padding-left: 10rem;
 }
 .iconn i{
     color: rgb(245, 152, 1);
-}
-.user .img{
-    display: flex;
-    align-items: center;
-    gap: 1rem; 
 }
 
 .main_pricing{
