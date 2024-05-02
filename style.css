@@ -326,29 +326,28 @@ padding-left: 10rem;
 }
 .user{
     display: flex;
-    flex-wrap: wrap;
 }
 .user p{
-    width: 55%;
+    width: 100%;
     font-size: 1.3rem;
     padding-left: 520px;
     margin-top: -14rem;
 }
 .shweta{
   display: flex;  
+  justify-content: center; 
+  align-items: center;
 }
-.shweta .box1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .box1 .image{
     display: flex;
-    
-   
+    flex-direction: column;  
+    margin-top: -10rem;
+   align-items: center;
 }
+
 .iconn{
-    display: flex;
+    display: flex;   
 }
 .iconn i{
     color: rgb(245, 152, 1);
@@ -356,9 +355,9 @@ padding-left: 10rem;
 .user .img{
     display: flex;
     align-items: center;
-    gap: 1rem;
-  
+    gap: 1rem; 
 }
+
 .main_pricing{
    display: flex;
 }
@@ -391,62 +390,73 @@ padding-left: 10rem;
 .Pricing .plan h1{
     font-size: 3rem;
 }
+.plans p{
+margin-top: 2rem;    
+}
 .starter{
     display: flex;
-    gap: 4rem; 
+    gap: 6rem; 
     padding-left: 5rem;
-    background: rgb(29, 29, 48);
-    width: 900px;
-    height: 30vh;
+    background: transparent;
+    margin-top: 3rem;
+    width: 90%;
+    height: 40vh;
+    border: 1px solid #fff;
     border-radius: 1rem;
     align-items: center;
 }
 .starter h1{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
+.starter h5{
+    margin-top: 1rem;
+}
 .popular{
     display: flex;
     gap: 4rem;
     padding-left: 5rem;
-    background: rgb(29, 29, 48);
-    width: 900px;
-    height: 30vh;
+    background: transparent;
+    width: 90%;
+    height: 40vh;
+    border: 1px solid #fff;
     border-radius: 1rem;
    align-items: center;
 } 
 .popular h1{
-    font-size: 2rem;
+    font-size: 3rem;
 }
-.popular h2{
-    padding-left: 0rem;
+.popular h5{
+    margin-top: 1rem;
 }
 .enter{
     display: flex;
-    gap: 4rem;
+    gap: 3.5rem;
     padding-left: 5rem;
-    border-color: rgb(255, 240, 255);
-    background: rgb(29, 29, 48);
-    width: 900px;
-    height: 30vh;
+    border-color: tr;
+    background: transparent;
+    width: 90%;
+    height: 40vh;
+    border: 1px solid #fff;
     border-radius: 1rem;
    align-items: center;
 }
 .enter h1{
-    font-size: 2rem;
+    font-size: 3rem;
+}
+.enter h5{
+    margin-top: 1rem;
 }
  .get{
     background: transparent;
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;
+    padding: 18px 36px;
     font-size: 1.1rem;
     border-radius: 4rem;
 }
 .git{
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;       
+    padding: 18px 36px;       
     border-radius: 4rem;
         
 }
@@ -457,8 +467,7 @@ padding-left: 10rem;
 .gett{
     background: transparent;
     border-color: rgb(255, 240, 255);
-    padding: 18px;
-    width: 140px;
+    padding: 18px 36px;
     font-size: 1.1rem;
     border-radius: 4rem;
 }
