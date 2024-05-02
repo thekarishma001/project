@@ -69,19 +69,56 @@ section{
     font-size: 1.1rem;
     margin-left: 30px;
     border-radius: 4rem;
+    position: relative;
+    overflow: hidden;
 }
 
+.Signup::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+.Signup:hover::after{
+    width: 100%;
+    opacity: 1;
+}
 .text h1{
   font-size: 4.5rem;
 }
-.abc{
-   border-color: rgb(255, 240, 255);
-   padding: 18px 36px;
-   border-radius: 4rem;
-}
+
 .start{
+    border: 2px solid rgb(255, 240, 255);
+    padding: 18px 36px;
+    border-radius: 4rem;
     font-size: 1.1rem;
-    color: black;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.start::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+.start:hover::after{
+    width: 100%;
+    opacity: 1;
 }
 .more{
     /* background: rgb(1, 1, 37); */
@@ -99,7 +136,7 @@ section{
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(45deg, red, blue);
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
     top: 0;
     left: 0;
     border-radius: 4rem;
@@ -178,7 +215,29 @@ section{
     border-color: rgb(255, 240, 255);
     padding: 18px 36px;
     border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
 }
+
+.Started::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.Started:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+
 
  .planns{
     display: flex;
@@ -211,7 +270,29 @@ section{
     border-color: rgb(255, 240, 255);
     padding: 18px 36px;
     border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
 }
+
+.create::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.create:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+
 .power2{   
     margin-top: 10rem; 
     display: flex;
@@ -236,7 +317,29 @@ section{
     border-color: rgb(255, 240, 255);
     padding: 18px 36px;
     border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
 }
+
+.Started2::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.Started2:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+
 [data-aos^=zoom][data-aos^=zoom].aos-animate{
     opacity: 1;
     transform: translateZ(0) scale(1);
@@ -310,18 +413,35 @@ padding-left: 10rem;
     align-items: center;
     border-radius: 1rem;
 }
-.sea{
-    background: white;
-    border-color: rgb(255, 240, 255);
-    padding: 20px;
-    margin-left: 35rem;
-    width: 140px;
-    border-radius: 4rem;
- }
  .see{
+    border: 2px solid rgb(255, 240, 255);
+    padding: 18px 36px;
+    border-radius: 4rem;
     font-size: 1.1rem;
-     color: black;
- }
+    color: #fff;
+    margin-left: 35rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.see::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.see:hover::after{
+    width: 100%;
+    opacity: 1;
+}
 
  .work_container{
     display: flex;
@@ -471,12 +591,54 @@ margin-top: 2rem;
     padding: 18px 36px;
     font-size: 1.1rem;
     border-radius: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.get::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+.get:hover::after{
+    width: 100%;
+    opacity: 1;
 }
 .git{
-    border-color: rgb(255, 240, 255);
-    padding: 18px 36px;       
+    border: 2px solid rgb(255, 240, 255);
+    padding: 18px 36px;
     border-radius: 4rem;
-        
+    font-size: 1.1rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.git::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+    top: 0;
+    left: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.git:hover::after{
+    width: 100%;
+    opacity: 1;
 }
 .giit{
     font-size: 1.1rem;
@@ -488,7 +650,26 @@ margin-top: 2rem;
     padding: 18px 36px;
     font-size: 1.1rem;
     border-radius: 4rem;
+    position: relative;
+    overflow: hidden;
+ }
+.gett::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+        top: 0;
+        left: 0;
+        border-radius: 4rem;
+        z-index: -1;
+        transition: all .3s;
+        opacity: 0;
 }
+.gett:hover::after{
+        width: 100%;
+        opacity: 1;
+ }
 .ques h1{
     font-size: 3rem;
 }
@@ -500,8 +681,27 @@ margin-top: 2rem;
     padding: 18px 36px;
     font-size: 1.1rem;
     margin-top: 2rem;
-    border-radius: 4rem
+    border-radius: 4rem;
+    position: relative;
+    overflow: hidden;
+ }
+.contact::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+        top: 0;
+        left: 0;
+        border-radius: 4rem;
+        z-index: -1;
+        transition: all .3s;
+        opacity: 0;
 }
+.contact:hover::after{
+        width: 100%;
+        opacity: 1;
+ }
 .future h1{
     font-size: 3rem;
 }
@@ -509,10 +709,6 @@ margin-top: 2rem;
     padding-top: 2rem;          
      
 }
-
-
-
-
 [data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
     transform: translateZ(0);
@@ -529,26 +725,58 @@ margin-top: 2rem;
 [data-aos=fade-up] {
     transform: translate3d(0,100px,0);
 }
-.srt{
-    border-color: rgb(255, 240, 255);
-    padding: 18px 36px;
-    margin-top: 2rem;
-    border-radius: 4rem;
-}
 .srtt{
-    font-size: 1.1rem;
-    color: black;
-}
-.mor{
-    background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18px 36px;
     border-radius: 4rem;
-}
-.morr{
     font-size: 1.1rem;
-    color: white;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+ }
+.srtt::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+        top: 0;
+        left: 0;
+        border-radius: 4rem;
+        z-index: -1;
+        transition: all .3s;
+        opacity: 0;
 }
+.srtt:hover::after{
+        width: 100%;
+        opacity: 1;
+ }
+ .morr{
+    border-color: rgb(255, 240, 255);
+    padding: 18px 36px;
+    border-radius: 4rem;
+    font-size: 1.1rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+ }
+.morr::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
+        top: 0;
+        left: 0;
+        border-radius: 4rem;
+        z-index: -1;
+        transition: all .3s;
+        opacity: 0;
+}
+.morr:hover::after{
+        width: 100%;
+        opacity: 1;
+ }
 .future img{
     margin-top: -40%;
     margin-left: 45%;
