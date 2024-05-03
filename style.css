@@ -495,6 +495,9 @@ padding-left: 10rem;
     gap: 2rem;
 }
 
+.iconn p{
+    color: gray;
+}
 .iconn{
     display: flex;   
 }
@@ -738,15 +741,16 @@ margin-top: 2rem;
     font-size: 1.1rem;
     color: #fff;
     position: relative;
+    top: 2rem;
     overflow: hidden;
- }
+}
 .srtt::after{
-        content: '';
-        position: absolute;
-        width: 0;
+    content: '';
+    position: absolute;
+    width: 0;
         height: 100%;
         background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
-        top: 0;
+        top: 0px;
         left: 0;
         border-radius: 4rem;
         z-index: -1;
@@ -791,38 +795,39 @@ margin-top: 2rem;
 .sub{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width:  100%;
 }
 .sub .box1{
     display: flex;
-    padding-left: 5rem;
+    justify-content: space-between;
     background: rgb(62, 62, 90);
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     gap: 4rem;
     border-radius: 1rem;
     align-items: center; 
 }
+.call{
+    display:flex ;
+    align-items: center; 
+}
 .inp input{
-    padding-right: 20rem;
+    padding:1.4rem 5rem;
     width: 100%;
-    padding-left: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     font-size: 1rem;
     border: none;
+    margin-right: 4rem;
     border-radius: 4rem;
     background: rgb(15, 15, 49);
 }
 .inp{
     display: flex;
 }
-.sub button{
+.inp button{
     background: white;
     color: black;
     border-color: rgb(255, 240, 255);
-    padding: 10px 35px;
+    padding: 0rem 2rem;
     margin-left: -10rem;
     border: none;
     font-size: 1.1rem;
@@ -858,13 +863,16 @@ margin-top: 2rem;
 }
 .xyz ul li a{
     font-size: 1rem;
+   
 }
 
 .aaa ul li a{
     font-size: 1rem;
+    text-decoration: dashed;
 }
 .bbb ul li a{
     font-size: 1rem;
+    text-decoration: dashed;
 }
 .links i{
     color: white;
