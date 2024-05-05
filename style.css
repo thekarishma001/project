@@ -1,13 +1,13 @@
 *,:after,:before{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     color: white;
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
 }
 body{
+    font-family: sans-serif;
     background: rgb(0, 5, 19);
     overflow-x: hidden;
 }
@@ -250,8 +250,6 @@ section{
     display: flex;
 }
 .books img{
-    margin-top: -60%;
-    margin-left: 70%;
     width: 75%;
     right: 0;
 }
@@ -768,6 +766,7 @@ margin-top: 2rem;
     font-size: 1.1rem;
     color: #fff;
     position: relative;
+    top: 2rem;
     overflow: hidden;
  }
 .morr::after{
@@ -776,7 +775,7 @@ margin-top: 2rem;
     width: 0;
     height: 100%;
     background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
-    top: 0;
+    top: 0px;
     left: 0;
     border-radius: 4rem;
     z-index: -1;
@@ -791,6 +790,10 @@ margin-top: 2rem;
     margin-top: -25%;
     margin-left: 45%;
     width: 60%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
 }
 .sub{
     display: flex;
@@ -811,27 +814,32 @@ margin-top: 2rem;
     display:flex ;
     align-items: center; 
 }
+
+.inp{
+    position: relative;
+}
+
 .inp input{
-    padding:1.4rem 5rem;
-    width: 100%;
+    display: flex;
     font-size: 1rem;
     border: none;
-    margin-right: 4rem;
+    width: 400px;
+    height: 80px;
     border-radius: 4rem;
+    padding: 1rem;
     background: rgb(15, 15, 49);
 }
-.inp{
+.btn3{
     display: flex;
-}
-.inp button{
     background: white;
     color: black;
-    border-color: rgb(255, 240, 255);
-    padding: 0rem 2rem;
-    margin-left: -10rem;
-    border: none;
-    font-size: 1.1rem;
-    border-radius: 4rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: fit-content;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
 }  
 .sub a{
     font-size: 1.5rem;
@@ -848,7 +856,7 @@ margin-top: 2rem;
     gap: 6rem;
 }
 
-.footer{
+.footer-click{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -917,11 +925,14 @@ margin-top: 2rem;
     transform: translate3d(0,100px,0);
 }
 @media(max-width: 768px){
+    html{
+        font-size: 80%;
+    }
     .nav{
         display: none;
     }
     .main_container{
-        width: 100vw;
+        width: 80vw;
     }
     .main_container .content{
         width: 100%;
@@ -938,5 +949,24 @@ margin-top: 2rem;
     .main_container{
         display: flex;
         flex-direction: column;
+    }
+    .power{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .books{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .power2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .second{
+        
     }
 }
