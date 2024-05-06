@@ -1,12 +1,12 @@
 *,:after,:before{
     margin: 0;
     padding: 0;
-    color: white;
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
 }
 body{
+    color: white;
     font-family: sans-serif;
     background: rgb(0, 5, 19);
     overflow-x: hidden;
@@ -25,6 +25,7 @@ body{
 }
 .nav a{
    padding-left: 2rem;
+   color: #fff;
 }
 section{  
     padding: 12rem 8% 2rem;
@@ -45,7 +46,7 @@ section{
 }
 
 .main_container img{
-    width: 58%;
+    width: 55%;
     height: auto;
     position: absolute;
     right: 0;
@@ -99,13 +100,18 @@ section{
     padding: 18px 36px;
     border-radius: 4rem;
     font-size: 1.1rem;
-    color: #fff;
+    color: #000;
     position: relative;
+    background: #fff;
     overflow: hidden;
+    transition: all .5s;
 }
 .start::after{
     content: '';
     position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 0;
     height: 100%;
     background: linear-gradient(45deg, rgb(54, 215, 218), rgb(149, 36, 254));
@@ -116,12 +122,17 @@ section{
     transition: all .3s;
     opacity: 0;
 }
+
+.start:hover{
+    background: transparent;
+    color: #fff;
+}
+
 .start:hover::after{
     width: 100%;
     opacity: 1;
 }
 .more{
-    /* background: rgb(1, 1, 37); */
     border: 2px solid rgb(255, 240, 255);
     padding: 18px 36px;
     border-radius: 4rem;
@@ -210,11 +221,15 @@ section{
 .pwr h1{
     font-size: 3rem;  
 }
+.pwr i{
+    color: blue;
+}
 .Started{
     background: transparent;
     border-color: rgb(255, 240, 255);
     padding: 18px 36px;
     border-radius: 2rem;
+    color: #fff;
     position: relative;
     overflow: hidden;
 }
@@ -269,6 +284,7 @@ section{
     padding: 18px 36px;
     border-radius: 2rem;
     position: relative;
+    color: #fff;
     overflow: hidden;
 }
 
@@ -316,6 +332,7 @@ section{
     padding: 18px 36px;
     border-radius: 2rem;
     position: relative;
+    color: #fff;
     overflow: hidden;
 }
 
@@ -598,10 +615,13 @@ margin-top: 2rem;
     padding: 18px 36px;
     font-size: 1.1rem;
     border-radius: 4rem;
+    color: #fff;
     position: relative;
     overflow: hidden;
 }
-
+.get a{
+    color: #fff;
+ }
 .get::after{
     content: '';
     position: absolute;
@@ -624,9 +644,11 @@ margin-top: 2rem;
     padding: 18px 36px;
     border-radius: 4rem;
     font-size: 1.1rem;
-    color: #fff;
+    color: #000;
+    background: #fff;
     position: relative;
     overflow: hidden;
+    z-index: 3;
 }
 
 .git::after{
@@ -660,6 +682,9 @@ margin-top: 2rem;
     position: relative;
     overflow: hidden;
  }
+ .gett a{
+    color: #fff;
+ }
 .gett::after{
         content: '';
         position: absolute;
@@ -689,8 +714,12 @@ margin-top: 2rem;
     font-size: 1.1rem;
     margin-top: 2rem;
     border-radius: 4rem;
+   
     position: relative;
     overflow: hidden;
+ }
+ .contact a{
+    color: #fff;
  }
 .contact::after{
         content: '';
@@ -813,8 +842,12 @@ footer{
 .call{
     display:flex ;
     align-items: center; 
+    margin-left: 2rem;
+    gap: 1rem;
 }
-
+.call a{
+    color: #fff;
+}
 .inp{
     position: relative;
 }
@@ -825,6 +858,8 @@ footer{
     border: none;
     width: 400px;
     height: 80px;
+    color: #fff;
+    margin-right: 2rem;
     border-radius: 4rem;
     padding: 1rem;
     background: rgb(15, 15, 49);
@@ -839,7 +874,7 @@ footer{
     width: fit-content;
     position: absolute;
     top: 0.7rem;
-    right: 1rem;
+    right: 3rem;
 }  
 .sub a{
     font-size: 1.5rem;
@@ -855,7 +890,6 @@ footer{
     display: flex;
     gap: 6rem;
 }
-
 .footer-click{
     display: flex;
     align-items: center;
@@ -871,24 +905,28 @@ footer{
 }
 .xyz ul li a{
     font-size: 1rem;
-   
+    color: #fff;
 }
 
 .aaa ul li a{
     font-size: 1rem;
     text-decoration: dashed;
+    color: #fff;
 }
 .bbb ul li a{
     font-size: 1rem;
     text-decoration: dashed;
+    color: #fff;
 }
 .links i{
     color: white;
     background: rgb(94, 94, 122);
-    height: 1rem;
+    height: 2rem;
     width: 2rem;
+    font-size: 1.5rem;
     border-radius: 4rem;
     text-align: center;
+    align-items: center;
 }
 
 .Copyright{
