@@ -6,10 +6,13 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .pauseFor(2500)
-  .typeString('Technical')
-  .pauseFor(300)
+  .pauseFor(200)
+  .typeString('Technical writing')
+  .pauseFor(2000)
   .deleteAll()
-  .typeString('Hello')
-  .pauseFor(1000)
+  .typeString('Blog writing')
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString('AI Content')
+  .pauseFor(2000)
   .start();
