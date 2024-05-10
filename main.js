@@ -16,3 +16,10 @@ typewriter
   .typeString('AI Content')
   .pauseFor(2000)
   .start();
+
+const menu = document.getElementById('menu');
+const nav = document.getElementsByClassName('nav')[0];
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  nav.classList.toggle('active');
+}

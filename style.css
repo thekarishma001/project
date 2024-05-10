@@ -11,6 +11,18 @@ body{
     background: rgb(0, 5, 19);
     overflow-x: hidden;
 }
+
+#app{
+    background: linear-gradient(45deg, rgb(139, 221, 139), rgb(234, 195, 122), rgb(235, 114, 134), rgb(154, 86, 237));
+    background-clip: text;
+    color: transparent;
+}
+
+#menu{
+    display: none;
+    font-size: 3rem;
+}
+
 .navbar{
     padding: 1rem 0;
     background: rgb(1, 1, 37);
@@ -23,6 +35,11 @@ body{
     left: 0;
     z-index: 3;
 }
+
+.nav{
+    display: flex;
+}
+
 .nav a{
    padding-left: 2rem;
    color: #fff;
@@ -67,7 +84,7 @@ section{
 }
 .Signup{
     background: transparent;
-    border-color: rgb(255, 240, 255);
+    border:1px solid rgb(255, 240, 255);
     padding: 18px 36px;
     font-size: 1.1rem;
     margin-left: 30px;
@@ -162,7 +179,6 @@ section{
     width: 100%;
     opacity: 1;
 }
-
 .main_boxes{
     width: 100%;
     display: flex;
@@ -492,8 +508,9 @@ padding-left: 10rem;
     font-size: 1.1rem;
     border-radius: 4rem;
 }
-.user p{
+.rating .user p{
     font-size: 1.3rem;
+    display: flex;
 }
 
 .rating{
@@ -556,6 +573,7 @@ padding-left: 10rem;
     font-size: 3rem;
 }
 .plans p{
+    display: flex;
 margin-top: 2rem;    
 }
 .starter{
@@ -738,12 +756,15 @@ margin-top: 2rem;
         width: 100%;
         opacity: 1;
  }
+ 
+ .future{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
 .future h1{
     font-size: 3rem;
-}
-.future h4{
-    padding-top: 2rem;          
-     
 }
 [data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
@@ -816,8 +837,7 @@ margin-top: 2rem;
     opacity: 1;
  }
 .future img{
-    margin-top: -25%;
-    margin-left: 45%;
+    display: flex;
     width: 60%;
 }
 footer{
@@ -967,7 +987,35 @@ footer{
         font-size: 80%;
     }
     .nav{
-        display: none;
+        padding: 4rem 1rem;
+        overflow: scroll;
+        background: #000;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: all 0.8s;
+    }
+    
+    .active{
+        transform: translateX(0);
+    }
+
+    .nav a{
+        font-size: 2rem;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+    }
+    .btn1{
+        margin-left: 0;
     }
     .main_container{
         width: 80vw;
@@ -1039,8 +1087,23 @@ footer{
         flex-direction: column;
         gap: 2rem;
     }
-}
+    .work_container{
+        flex-direction: column;
+    }
 
+    .rating{
+        padding: 0 4rem;
+    }
+
+    .future{
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    #menu{
+        display: flex;
+    }
+}
 @media(max-width: 426px){
 
 }
